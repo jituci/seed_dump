@@ -97,3 +97,7 @@ Options are common to both the Rake task and the console, except where noted.
 
 `model[s]`: Restrict the dump to the specified comma-separated list of models.  Default: all models.  If you are using a Rails engine you can dump a specific model by passing "EngineName::ModelName". Rake task only.
 
+`ignore`: Don't dump specified model(s)  - comma-separated list 
+
+`clean`: if set generate <model>.delete_all line before model section
+
