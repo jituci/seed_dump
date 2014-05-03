@@ -56,6 +56,7 @@ class SeedDump
           out << "#{u}: #{value_to_s(nil)},"
         end
       end
+
       out[0..-2] + ")[:#{model.primary_key}],"
     end
 
